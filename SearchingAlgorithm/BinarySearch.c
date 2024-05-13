@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+BinarySearch(int arr[],int N,int item)
+{
+    int i;
+}
+
 int main()
 {
     int list[] = {3,6,11,6,7,33,33};
@@ -10,5 +15,5 @@ int main()
     printf("%d\t",list[i]);
     printf("\nenter you item which you want to find\n");
     scanf("%d",&item);
-    sequencialSearch(list,N,item);
+    BinarySearch(list,N,item);
 }
